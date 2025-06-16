@@ -78,6 +78,15 @@ Input dataset should include:
 - The final ITE for each individual is the **average** of their predictions across all trees.
 
 ---
+### Ouput examples
+![](results/treatment_effect_distribution.png)
+![](results/correlation_matrix.png)
+![](results/Boxplot_ITE_by_Device_and_Level.png)
+![](results/CATE_vs_Feature%20T1.png)
+![](results/Dist_Feature%20M1_by_HighResponse.png)
+![](results/SHAP_CATE_summary.png)
+![](results/StackedBar_HighResponse_Distribution.png)
+![](results/feature_distributions.png)
 
 ## 📊 Advantages of Causal Forests
 
