@@ -1,0 +1,15 @@
+name: causal-forest-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - econml
+  - openpyxl
+  - pip
+  - pip:
+      - jupyter
