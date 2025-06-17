@@ -12,14 +12,12 @@ Causal Forests are a machine learning algorithm designed for estimating **Indivi
 - ITE represents the difference in outcomes for an individual if they **receive** versus **do not receive** a treatment.
 - Formally, it is defined as:
 
-  \[
-  \tau(x) = \mathbb{E}[Y(1) - Y(0) \mid X = x]
-  \]
+![ITE](results/ITE.png)
 
   Where:
-  - \( Y(1) \): Outcome if treated  
-  - \( Y(0) \): Outcome if not treated  
-  - \( X \): Covariate vector describing the individual
+  - ***Y(1)***: Outcome if treated  
+  - ***Y(0)***: Outcome if not treated  
+  - ***X***: Covariate vector describing the individual
 
 ---
 
